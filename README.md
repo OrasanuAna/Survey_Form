@@ -3,6 +3,10 @@
 ## Project Overview
 This is a **responsive survey form** built with HTML and CSS. The goal of the form is to collect user feedback regarding services. The design uses a **modern and clean layout** with **pastel colors** to create a pleasant user experience.
 
+## Survey Form Preview
+
+![Survey Form Preview](https://github.com/OrasanuAna/survey_form/blob/master/Survey%20Form.jpg)
+
 ### Key Features:
 - Fully responsive design, suitable for both desktop and mobile devices.
 - Interactive form elements including:
