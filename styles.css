@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f3e9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+/* Title and Description */
+h1#title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #5f768a;
+  margin-bottom: 10px;
+}
+
+p#description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #707070;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* Form Styling */
+form#survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  color: #5f768a;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c8d1dc;
+  background-color: #f3f4f6;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #93a8bf;
+}
+
+/* Radio & Checkbox Styling */
+.radio-group,
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  margin-left: 10px;
+  color: #5f768a;
+}
+
+.radio-group input,
+.checkbox-group input {
+  accent-color: #93a8bf;
+  width: 18px;
+  height: 18px;
+}
+
+/* Textarea Styling */
+textarea {
+  resize: none;
+}
+
+/* Submit Button */
+button#submit {
+  background-color: #93a8bf;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#submit:hover {
+  background-color: #768ba1;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  h1#title {
+    font-size: 2rem;
+  }
+
+  p#description {
+    font-size: 1rem;
+  }
+}
